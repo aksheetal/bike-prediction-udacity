@@ -24,11 +24,11 @@ I would concerntrate to work on the features to  improve the model's performance
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 
-
-|model|timelimit|presets|hp-method|score|
-|0|initial |600|best quality|none|1.84164
-|1|add_features |600|best quality|regression|0.45129
-|1|hpo |600|best quality|tabular autogluon|1.00570
+|model|score| "initial"|1.84164 "add_features"|0.45129 "hpo"|1.00570
+#### |model|timelimit|presets|hp-method|score|
+#### |0|initial |600|best quality|none|1.84164
+#### |1|add_features |600|best quality|regression|0.45129
+#### |1|hpo |600|best quality|tabular autogluon|1.00570
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
 TODO: Replace the image below with your own.
