@@ -3,17 +3,17 @@
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-I had issues with my local environment. I had to uninstall and reinstall the packages first and foremostly. In the beginning I got scores in the range 1 and later after hyperparameter tuning I had score 1.0005
+I had issues with my local environment. I had to uninstall and reinstall the packages first and foremostly. In the beginning I got scores in the range 1 and later after hyperparameter tuning I had score 1.0005. As far as I understand, for the regression model there's nothing special about zero and negative numbers, so it finds the best regression hyperplane no matter whether the output is partly negative.
 
 ### What was the top ranked model that performed?
-The one with tabular autogluon hyperparameter tuning method that scored 1.005
+hpo - Tabular Predictor
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
 The season and weather distribution are similar. The temperature is normally distributed. From the tain and test dataset at the beginning, the datetime column was split and new features were created like year, hour, month and day features. These new features improved the model 
 
 ### How much better did your model preform after adding additional features and why do you think that is?
-TODO: Add your explanation
+The model performed much better after adding the features. I followed the hyperparameter tuning approach that was guided in the script.
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
